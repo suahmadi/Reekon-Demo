@@ -25,13 +25,11 @@ export const Canvas = styled.canvas`
 `
 
 export const BannerTitle = styled(motion.h1)`
-  @media screen and (min-width: 1600px) {
-    position: absolute;
-    bottom: -120px;
-    left: -18px;
-    color: ${props => props.theme.text};
-    pointer-events: none;
-  }
+  position: absolute;
+  bottom: -120px;
+  left: -18px;
+  color: ${props => props.theme.text};
+  pointer-events: none;
 `
 
 export const Headline = styled(motion.span)`
@@ -83,27 +81,25 @@ export const FeaturedContent = styled(motion.div)`
     }
   }
   .featured-title {
-    @media screen and (min-width: 1600px) {
-      position: absolute;
-      bottom: -128px;
-      font-size: 7rem;
-      font-weight: 900;
-      line-height: 90px;
-      margin: 0;
-      .arrow {
-        width: 120px;
-        height: 80px;
-        display: block;
-        position: relative;
-        overflow: hidden;
-        svg {
-          position: absolute;
-          top: 16px;
-          left: -48px;
-          width: 108px;
-          path {
-            fill: ${props => props.theme.text};
-          }
+    position: absolute;
+    bottom: -128px;
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 90px;
+    margin: 0;
+    .arrow {
+      width: 120px;
+      height: 80px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      svg {
+        position: absolute;
+        top: 16px;
+        left: -48px;
+        width: 108px;
+        path {
+          fill: ${props => props.theme.text};
         }
       }
     }
