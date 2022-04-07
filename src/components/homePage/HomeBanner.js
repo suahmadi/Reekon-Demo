@@ -106,7 +106,6 @@ const HomeBanner = ({ onCursor }) => {
         onMouseEnter={() => onCursor("hovered")}
         onMouseLeave={onCursor}
       />
-
       <BannerTitle
         variants={container}
         initial="initial"
