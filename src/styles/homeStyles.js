@@ -25,7 +25,7 @@ export const Canvas = styled.canvas`
 `
 
 export const BannerTitle = styled(motion.h1)`
-  @media screen and (min-width: 1800px) {
+  @media screen and (min-width: 1600px) {
     position: absolute;
     bottom: -120px;
     left: -18px;
@@ -83,7 +83,7 @@ export const FeaturedContent = styled(motion.div)`
     }
   }
   .featured-title {
-    @media screen and (min-width: 1800px) {
+    @media screen and (min-width: 1600px) {
       position: absolute;
       bottom: -128px;
       font-size: 7rem;
