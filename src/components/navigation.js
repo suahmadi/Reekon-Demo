@@ -124,34 +124,7 @@ const Navigation = ({ toggleMenu, setToggleMenu, onCursor }) => {
                   ))}
                 </ul>
               </NavList>
-              <NavFooter>
-                <Flex spaceBetween>
-                  <FooterContent>
-                    <p>contact@reekon.tools</p>
-                  </FooterContent>
-                  <FooterContent wider>
-                    <p>000.000.000</p>
-                  </FooterContent>
-                  <FooterSocial>
-                    <a
-                      onMouseEnter={() => onCursor("pointer")}
-                      onMouseLeave={onCursor}
-                      href="https://www.instagram.com/reekontools/"
-                      target="instagram"
-                    >
-                      <Instagram />
-                    </a>
-                    <a
-                      onMouseEnter={() => onCursor("pointer")}
-                      onMouseLeave={onCursor}
-                      href="https://www.facebook.com/reekontools/"
-                      target="facebook"
-                    >
-                      <Facebook />
-                    </a>
-                  </FooterSocial>
-                </Flex>
-              </NavFooter>
+
               <NavVideos>
                 <motion.div
                   animate={{ width: revealVideo.show ? 0 : "100%" }}

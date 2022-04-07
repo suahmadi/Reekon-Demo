@@ -15,10 +15,11 @@ export const Nav = styled(motion.div)`
 `
 
 export const NavHeader = styled.div`
-  top: 72px;
+  top: 100px;
   position: relative;
   h2 {
     color: ${props => props.theme.background};
+    height: 100px;
   }
 `
 export const CloseNav = styled.div`

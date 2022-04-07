@@ -8,6 +8,9 @@ export const FooterNav = styled(motion.div)`
 
 export const FooterContent = styled.div`
   color: #ffb300;
+  @media only screen and (max-width: 600px) {
+    font-size: 10px;
+  }
   font-size: 22px;
   font-weight: 600;
   line-height: 8px;

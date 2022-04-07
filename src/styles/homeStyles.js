@@ -34,6 +34,9 @@ export const BannerTitle = styled(motion.h1)`
 
 export const Headline = styled(motion.span)`
   display: block;
+  @media only screen and (max-width: 600px) {
+    font-size: 5rem;
+  }
   font-size: 23rem;
   font-weight: 900;
   line-height: 0.76;
@@ -46,6 +49,9 @@ export const HomeContentSection = styled(motion.div)`
 `
 export const Content = styled(motion.h2)`
   width: 53%;
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
   font-size: 2.3rem;
   font-weight: 400;
   margin-left: 124px;
@@ -66,6 +72,9 @@ export const HomeFeaturedSection = styled(motion.div)`
 export const FeaturedContent = styled(motion.div)`
   height: 480px;
   width: 100%;
+  @media only screen and (max-width: 600px) {
+    padding: 25px 64px;
+  }
   padding: 56px 124px;
   box-sizing: border-box;
   color: ${props => props.theme.text};
@@ -76,6 +85,9 @@ export const FeaturedContent = styled(motion.div)`
     display: flex;
     h4 {
       &:last-child {
+        @media only screen and (max-width: 600px) {
+          margin-left: 0.5rem;
+        }
         margin-left: 1rem;
       }
     }
@@ -83,6 +95,11 @@ export const FeaturedContent = styled(motion.div)`
   .featured-title {
     position: absolute;
     bottom: -128px;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+      line-height: 40px;
+      bottom: -80px;
+    }
     font-size: 7rem;
     font-weight: 900;
     line-height: 90px;
@@ -164,6 +181,10 @@ export const About = styled.div`
   width: 100%;
   h2 {
     width: 60%;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+      margin-left: 32px;
+    }
     font-size: 2.3rem;
     font-weight: 400;
     margin-left: 124px;
@@ -172,6 +193,9 @@ export const About = styled.div`
   p {
     max-width: 440px;
     font-size: 1rem;
+    @media only screen and (max-width: 600px) {
+      margin-left: 32px;
+    }
     line-height: 1.6rem;
     margin-left: 124px;
     color: ${props => props.theme.text};
@@ -188,6 +212,9 @@ export const AccordionHeader = styled(motion.div)`
   display: flex;
   align-items: center;
   font-weight: 600;
+  @media only screen and (max-width: 600px) {
+    font-size: 0.8rem;
+  }
   font-size: 1.15rem;
   margin: 8px 0;
   }
