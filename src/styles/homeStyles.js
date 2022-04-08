@@ -26,7 +26,7 @@ export const Canvas = styled.canvas`
 
 export const BannerTitle = styled(motion.h1)`
   position: absolute;
-  bottom: -120px;
+  bottom: -15px;
   left: -18px;
   color: ${props => props.theme.text};
   pointer-events: none;
@@ -34,7 +34,7 @@ export const BannerTitle = styled(motion.h1)`
 
 export const Headline = styled(motion.span)`
   display: block;
-  font-size: 23rem;
+  font-size: 15rem;
   font-weight: 900;
   line-height: 0.76;
   overflow: hidden;
