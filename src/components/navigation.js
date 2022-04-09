@@ -21,27 +21,27 @@ const navRoutes = [
     title: "M1 CALIBAR",
     path:
       "https://www.amazon.com/REEKON-Caliber-Measuring-Tool-Miter/dp/B098TTZZYL",
-    video: "featured-product.mp4",
+    video: "https://tinyurl.com/featured-reekon-product",
   },
   {
     id: 1,
     title: "T1 TOMAHAWK",
     path:
       "https://www.kickstarter.com/projects/reekon/t1-tomahawk-professional-digital-tape-measure",
-    video: "T1-Tomahawk.mp4",
+    video: "https://tinyurl.com/t1-reekon",
   },
   {
     id: 2,
     title: "ROCK MEASURE APP",
     path: "https://www.reekon.tools/t1",
-    video: "reekonApp.mp4",
+    video: "https://tinyurl.com/reekonApp",
   },
 ]
 
 const Navigation = ({ toggleMenu, setToggleMenu, onCursor }) => {
   const [revealVideo, setRevealVideo] = useState({
     show: false,
-    video: "featured-video.mp4",
+    video: "https://tinyurl.com/featured-reekon-product",
     key: "0",
   })
 
@@ -161,7 +161,7 @@ const Navigation = ({ toggleMenu, setToggleMenu, onCursor }) => {
                   <AnimatePresence initial={false} exitBeforeEnter>
                     <motion.video
                       key={revealVideo.key}
-                      src={require(`../assets/video/${revealVideo.video}`)}
+                      src={revealVideo.video}
                       initial={{ opacity: 0 }}
                       exit={{ opacity: 0 }}
                       animate={{

@@ -96,7 +96,7 @@ const HomeBanner = ({ onCursor }) => {
           loop
           autoPlay
           muted
-          src={require("../../assets/video/reekon-demo.mp4")}
+          src="https://tinyurl.com/reekon-demo"
         />
       </Video>
       <Canvas
