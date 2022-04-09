@@ -1,36 +1,36 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"
 //Framer Motion
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion"
 // Styled Components
-import { Container, Flex } from "../../styles/globalStyles";
+import { Container, Flex } from "../../styles/globalStyles"
 import {
   HomeFeaturedSection,
   FeaturedVideo,
   FeaturedContent,
   FeaturedProjects,
-} from "../../styles/homeStyles";
+} from "../../styles/homeStyles"
 // Scroll Animations
-import { useInView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer"
 
 const HomeFeatured = ({ onCursor }) => {
-  const [hovered, setHovered] = useState(false);
-  const animation = useAnimation();
+  const [hovered, setHovered] = useState(false)
+  const animation = useAnimation()
   const [featured, inView] = useInView({
     triggerOnce: true,
     rootMargin: "-300px",
-  });
+  })
 
   useEffect(() => {
     if (inView) {
-      animation.start("visible");
+      animation.start("visible")
     }
-  }, [animation, inView]);
+  }, [animation, inView])
 
   return (
     <HomeFeaturedSection
       ref={featured}
       animate={animation}
-      initial='hidden'
+      initial="hidden"
       variants={{
         visible: {
           opacity: 1,
@@ -41,7 +41,7 @@ const HomeFeatured = ({ onCursor }) => {
       }}
     >
       <Container>
-        <a href='https://www.amazon.com/REEKON-Caliber-Measuring-Tool-Miter/dp/B098TTZZYL'>
+        <a href="https://www.amazon.com/REEKON-Caliber-Measuring-Tool-Miter/dp/B098TTZZYL">
           <FeaturedContent
             onHoverStart={() => setHovered(!hovered)}
             onHoverEnd={() => setHovered(!hovered)}
@@ -53,25 +53,25 @@ const HomeFeatured = ({ onCursor }) => {
               <motion.div
                 animate={{ opacity: hovered ? 1 : 0 }}
                 transition={{ duration: 0.6, ease: [0.6, 0.05, -0.01, 0.9] }}
-                className='meta'
+                className="meta"
               >
                 <h4>M1 CALIBER</h4>
                 <h4>2020</h4>
               </motion.div>
             </Flex>
-            <h2 className='featured-title'>
+            <h2 className="featured-title">
               MEASURE <br /> BETTER
-              <span className='arrow'>
+              <span className="arrow">
                 <motion.svg
                   animate={{ x: hovered ? 48 : 0 }}
                   transition={{ duration: 0.6, ease: [0.6, 0.05, -0.01, 0.9] }}
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 101 57'
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 101 57"
                 >
                   <path
-                    d='M33 34H0V24h81.429L66 7.884 73.548 0l19.877 20.763.027-.029L101 28.618 73.829 57l-7.548-7.884L80.753 34H33z'
-                    fill='#FFF'
-                    fillRule='evenodd'
+                    d="M33 34H0V24h81.429L66 7.884 73.548 0l19.877 20.763.027-.029L101 28.618 73.829 57l-7.548-7.884L80.753 34H33z"
+                    fill="#FFF"
+                    fillRule="evenodd"
                   ></path>
                 </motion.svg>
               </span>
@@ -82,7 +82,7 @@ const HomeFeatured = ({ onCursor }) => {
               loop
               autoPlay
               muted
-              src={require("../../assets/video/featured-product.mp4")}
+              src="https://tinyurl.com/featured-reekon-product"
             ></video>
           </FeaturedVideo>
         </a>
@@ -97,7 +97,7 @@ const HomeFeatured = ({ onCursor }) => {
         </FeaturedProjects>
       </Container>
     </HomeFeaturedSection>
-  );
-};
+  )
+}
 
-export default HomeFeatured;
+export default HomeFeatured
