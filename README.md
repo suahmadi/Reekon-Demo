@@ -28,6 +28,6 @@
 This website is also hosted on AWS amplify and you can directly check it out through this link:
       https://master.d2u9ivzybw58qd.amplifyapp.com/
 
-![](https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80)
+![](https://drive.google.com/uc?export=download&id=1-IFQW82tyPG9rBLBw_prJ9UVvsAjCf5Z)
 
 
