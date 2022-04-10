@@ -8,7 +8,7 @@
 
 1.  **install packages**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Navigate into site’s directory and run the following:
 
     ```shell
      npm install gatsby
@@ -17,9 +17,9 @@
 
 2.  **run**
 
-    Navigate into your new site’s directory and start it up.
+    to run the website locally, run the following command in the website directory: 
 
     ```shell
       gatsby develop
     ```
-    this will run the website locally on at `http://localhost:8000`!
+    this will run the website locally on at `http://localhost:8000`
