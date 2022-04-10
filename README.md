@@ -23,3 +23,11 @@
       gatsby develop
     ```
     this will run the website locally on at `http://localhost:8000`
+
+
+This website is also hosted on AWS amplify and you can directly check it out through this link:
+      https://master.d2u9ivzybw58qd.amplifyapp.com/
+
+<p align="center">
+    <img alt="ui-mockup" src="https://drive.google.com/uc?export=download&id=1-IFQW82tyPG9rBLBw_prJ9UVvsAjCf5Z" />
+</p>
