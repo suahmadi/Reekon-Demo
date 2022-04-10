@@ -30,6 +30,6 @@ This website is also hosted on AWS amplify and you can directly check it out thr
 
 <p align="center">
     <a href="https://www.gatsbyjs.org">
-    <img alt="ui-mockup" src="https://drive.google.com/uc?export=download&id=1-IFQW82tyPG9rBLBw_prJ9UVvsAjCf5Z"  width="1920" />
+    <img alt="preview" src="https://drive.google.com/uc?export=download&id=1-IFQW82tyPG9rBLBw_prJ9UVvsAjCf5Z"  width="600" />
     </a>
 </p>
