@@ -28,6 +28,6 @@
 This website is also hosted on AWS amplify and you can directly check it out through this link:
       https://master.d2u9ivzybw58qd.amplifyapp.com/
 
-![](https://drive.google.com/uc?export=download&id=1-IFQW82tyPG9rBLBw_prJ9UVvsAjCf5Z)
+![](https://i.ibb.co/DrCbqqY/REEKON-DARK-MODE-1.jpg)
 
 
