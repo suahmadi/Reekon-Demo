@@ -170,6 +170,7 @@ const Navigation = ({ toggleMenu, setToggleMenu, onCursor }) => {
                       transition={{ duration: 0.2, ease: "easeInOut" }}
                       loop
                       autoPlay
+                      muted
                     ></motion.video>
                   </AnimatePresence>
                 </motion.div>
